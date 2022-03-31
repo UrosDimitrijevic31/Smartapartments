@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // background-color: #71bcb7;
+    background-color: #001B3B; 
+    opacity: 0.8;
+    padding: 10px 7%;
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    ul {
+        list-style: none;
+    
+        li {
+            color: #fff;
+            display: inline;
+            margin: 10px;
+            padding: 10px;
+
+            &:hover {
+                border-bottom: 2px solid #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
